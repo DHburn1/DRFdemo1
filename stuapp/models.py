@@ -35,6 +35,6 @@ class Movie(models.Model):
     def __str__(self):
         return self.mname
 
-"""sss"""
+
 class Student(models.Model):
     sname = models.CharField(max_length=30)
